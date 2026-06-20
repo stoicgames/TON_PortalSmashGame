@@ -1,7 +1,7 @@
 using UnityEngine;
 using YesTMABridge;
 
-public class WalletTest : MonoBehaviour
+public class GameScript : MonoBehaviour
 {
     [Header("Payment Settings")]
     public string recipientAddress = "UQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
