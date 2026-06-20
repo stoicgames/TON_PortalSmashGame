@@ -11,11 +11,16 @@ public class GameScript : MonoBehaviour
     // Ask user to connect TON wallet
 
 
-    void Start()
+    public void Start()
     {
         Debug.Log("new version X");
     }
 
+
+    public void CheckVersion()
+    {
+        Debug.Log("Checking version...version 10");
+    }
 
     public void ConnectWallet()
     {
