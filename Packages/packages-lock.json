@@ -219,6 +219,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "yes.tma.bridge": {
+      "version": "https://github.com/Open-Yescoin/Telegram-Unity-Bridge.git?path=/packages/YesTMABridge",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "75b7a9e224572ef9fc372e72118743f5b337ead4"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
