@@ -9,13 +9,21 @@ public class WalletTest : MonoBehaviour
     public string comment = "Unity Telegram Bridge Test";
 
     // Ask user to connect TON wallet
+
+
+    void Start()
+    {
+        Debug.Log("new version X");
+    }
+
+
     public void ConnectWallet()
     {
 #if UNITY_WEBGL && !UNITY_EDITOR
         Debug.Log("Requesting wallet connection...");
         TGMiniAppGameSDKProvider.connectWallet();
 #else
-        Debug.Log("new version");
+        Debug.Log("connect wallet click");
 #endif
     }
 
